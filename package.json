@@ -1,25 +1,36 @@
 {
-    "name": "module-18-project",
-    "version": "1.0.0",
-    "description": "",
-    "main": "assets/js/script.js",
-    "scripts": {
-        "build": "webpack",
-        "webpack": "webpack --watch"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "file-loader": "^6.2.0",
-        "webpack": "^4.43.0",
-        "webpack-bundle-analyzer": "^4.4.2",
-        "webpack-cli": "^3.3.11"
-    },
-    "dependencies": {
-        "bootstrap": "^4.3.1",
-        "image-webpack-loader": "^7.0.1",
-        "jquery": "^3.4.1",
-        "popper.js": "^1.16.0"
-    }
+	"name": "food-festival",
+	"version": "1.0.0",
+	"description": "",
+	"main": "assets/js/script.js",
+	"scripts": {
+		"build": "webpack",
+		"webpack": "webpack --watch",
+		"start:dev": "webpack-dev-server",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ThManHimself/food-festival.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ThManHimself/food-festival/issues"
+	},
+	"homepage": "https://github.com/ThManHimself/food-festival#readme",
+	"devDependencies": {
+		"file-loader": "^6.2.0",
+		"image-webpack-loader": "^8.0.1",
+		"webpack": "^5.55.0",
+		"webpack-bundle-analyzer": "^4.4.2",
+		"webpack-cli": "^4.8.0",
+		"webpack-dev-server": "^4.3.0"
+	},
+	"dependencies": {
+		"bootstrap": "^4.3.1",
+		"jquery": "^3.6.0",
+		"popper.js": "^1.16.1"
+	}
 }
